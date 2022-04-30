@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trill Jimi Wiki</title>
+    <link rel="stylesheet" media="only screen and (orientation: landscape)" href="index.css">
+    <link rel="stylesheet" media="only screen and (orientation: portrait)" href="mobile.css">
+</head>
+
+<body>
+    <div class="header">
+        <img src="/Essentials/Menu.png" onclick="openside()" id="menu">
+        <img src="./Essentials/Close.png" onclick="closeside()" id="close">
+        <h1>TJW</h1>
+    </div>
+
+    <div id="side-section-left">
+
+        <button class="home_btn" onclick="btn_clicked('home.html')">Home</button>
+        <h3 class="side-font">Socials</h3>
+        <ul>
+            <a href="https://discord.gg/Ps3us66R5z" target="_blank"><li>Discord</li></a>
+            <hr>
+            <a href="https://www.reddit.com/r/TrillJimi/" target="_blank"><li>Reddit</li></a>
+            <hr>
+            <a href="https://www.instagram.com/trilljimi/" target="_blank"><li>Instagram</li></a>
+        </ul>
+
+        <h3 class="side-font">Official</h3>
+        <ul>
+            <li onclick="btn_clicked('./Official/Songs/Songs.html')">Songs</li>
+            <hr>
+            <li onclick="btn_clicked('./Official/Albums/Albums.html')">Albums</li>
+            <hr>
+            <li onclick="btn_clicked('./Official/Freestyles/Freestyles.html')">Freestyles</li>
+        </ul>
+
+        <h3 class="side-font">Unofficial</h3>
+        <ul>
+            <li onclick="btn_clicked('./Unofficial/Unreleased/Unreleased.html')">Unreleased</li>
+        </ul>
+
+        <h3 class="side-font">Discography</h3>
+        <ul>
+            <a href="https://mega.nz/folder/eKJRCAIB#QG4e39N391VVx_BhRvH5bg" target = "_blank"><li>mega.nz</li></a>
+            <hr>
+            <a href="https://drive.google.com/drive/u/4/folders/16apwChkjEcjINLIx7pGTTcuiFfjxtSHb" target = "_blank"><li>Google Drive</li></a>
+        </ul>
+
+        <h3 class="side-font">Other</h3>
+        <ul>
+            <li onclick="btn_clicked('./Other/Credits/Credits.html')">Credits</li>
+        </ul>
+
+    </div>
+
+    <div class="main">
+        <iframe src="./home.html" frameborder="0" id="ifrm"></iframe>
+    </div>
+
+    <script>
+
+        function openside() {
+            document.getElementById("side-section-left").style.width = "100%";
+            document.getElementById("close").style.display = "block"; 
+            document.getElementById("menu").style.display = "none";
+        }
+
+        function closeside() {
+            document.getElementById("side-section-left").style.width = "0%"; 
+            document.getElementById("menu").style.display = "block";
+            document.getElementById("close").style.display = "none";
+        }
+
+        function btn_clicked(link) {
+            document.getElementById('ifrm').src = link;
+            if (window.innerHeight > window.innerWidth) {
+                closeside()
+            }
+        }
+
+    </script>
+
+</body>
+</html>

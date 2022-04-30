@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freestyles</title>
+    <link rel="stylesheet" href="./Freestyles.css">
+    <link rel="stylesheet" media="only screen and (max-width: 1280px)" href="./mobile.css">
+</head>
+<body>
+
+    <div class="song_choose">
+        <img src="https://i1.sndcdn.com/artworks-9DfkPm9bDumP9tSW-h9k3pg-t500x500.jpg">
+        <h2 class="songs">Run it Up</h2>
+        <button class="playbutton" onclick="document.getElementById('Run').play()">Play</button>
+        <button class="stopbutton" onclick="document.getElementById('Run').pause()">Pause</button>
+        <hr>
+        <audio src="/MP3s/Ty2fly - Run It Up.mp3" id="Run" controls></audio>
+    </div>
+
+    <div class="song_choose">
+        <img src="https://i1.sndcdn.com/artworks-1UxWbheKxa26EsT6-24KHmw-t500x500.jpg">
+        <h2 class="songs">111 333 Freestyle</h2>
+        <button class="playbutton" onclick="document.getElementById('111').play()">Play</button>
+        <button class="stopbutton" onclick="document.getElementById('111').pause()">Pause</button>
+        <hr>
+        <audio src="/MP3s/Trill Jimi - 111_333 Tokyo Freestyle.mp3" id="111" controls></audio>
+    </div>
+
+    <div class="song_choose">
+        <img src="https://i1.sndcdn.com/artworks-1u3VS7SsUD0IiBo8-sjbJJQ-t500x500.jpg">
+        <h2 class="songs">No Hook Freestyle</h2>
+        <button class="playbutton" onclick="document.getElementById('Hook').play()">Play</button>
+        <button class="stopbutton" onclick="document.getElementById('Hook').pause()">Pause</button>
+        <hr>
+        <audio src="/MP3s/Ty2fly - No Hook Freestyle.mp3" id="Hook" controls></audio>
+    </div>
+
+</body>
+</html>

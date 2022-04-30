@@ -1,0 +1,118 @@
+.song_choose {
+    display: inline-block;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #40404040;
+    margin-top: 90px;
+    margin-left: 5px;
+    background-color: #40404040;
+    box-sizing: border-box;
+    width: 345px;
+    height: 175px;
+}
+
+.song_choose:hover {
+    background-color: #ffffff10;
+}
+
+.song_choose2 {
+    display: inline-block;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #40404040;
+    margin-top: 100px;
+    margin-left: 5px;
+    background-color: #40404040;
+    box-sizing: border-box;
+    width: 345px;
+    height: 175px;
+}
+
+.song_choose2:hover {
+    background-color: #ffffff10;
+}
+
+.songs {
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-decoration-color: transparent;
+    cursor: default;
+    margin-top: 13px;
+    display: inline-block;
+    position: absolute;
+}
+
+a {
+    text-decoration: wavy;
+}
+
+hr {
+    display: block;
+    background-color: #40404040;
+    border: none;
+    height: 3px;
+    margin: 5px 0;
+}
+
+img {
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    cursor: default;
+}
+
+.playbutton {
+    position: absolute;
+    background-color: #50505050;
+    border: none;
+    margin-top: 65px;
+    color: darkgray;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 2px;
+    width: 150px;
+    height: 30px;
+}
+
+.stopbutton {
+    position: absolute;
+    background-color: #50505050;
+    border: none;
+    margin-top: 105px;
+    color: darkgray;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 2px;
+    width: 150px;
+    height: 30px;
+}
+
+.playbutton:hover {
+    background-color: #60606060;
+}
+
+.stopbutton:hover {
+    background-color: #70707070;
+}
+
+audio {
+    position: absolute;
+    width: 306px;
+    height: 40px;
+    margin-top: 0px;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 15px;
+    border-color: #40404040;
+}
+
+audio:hover {
+    border-color: #ffffff10;
+}
+
+h2 {
+    width: 150px;
+}

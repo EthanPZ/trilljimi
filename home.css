@@ -1,0 +1,31 @@
+.new_music_txt {
+    color: white;
+    font-family: sans-serif;
+    margin-left: 15px;
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+.caption {
+    color: darkgray;
+    font-family: sans-serif;
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+.new {
+    border-style: solid; 
+    border-width: 5px; 
+    border-radius: 10px; 
+    color: #404040;
+    margin-left: 15px;
+}
+
+.under_text {
+    color: white;
+    font-family: sans-serif;
+    margin-left: 15px;
+    font-size: 40px;
+    margin-bottom: 0;
+    margin-top: 40px;
+}
